@@ -2,7 +2,7 @@ import { FileText, PenTool, Search, Wrench } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 import { GithubIcon } from "./icons/BrandIcons";
 
-const PHARMAGUARD_GITHUB_URL = "https://github.com/hassankaafi72/pharmaguard-ai-";
+const PHARMAGUARD_GITHUB_URL = "#";
 
 const BEYOND_CODE = [
   "Technical Writing",
@@ -57,8 +57,6 @@ export function Research() {
               </p>
               <a
                 href={PHARMAGUARD_GITHUB_URL}
-                target="_blank"
-                rel="noreferrer noopener"
                 className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-muted transition-colors duration-200 hover:text-foreground cursor-pointer"
               >
                 <GithubIcon className="h-4 w-4" />

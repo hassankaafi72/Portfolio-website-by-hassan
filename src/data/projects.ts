@@ -22,7 +22,7 @@ export const PROJECTS: Project[] = [
     categories: ["AI/ML"],
     status: "Research",
     tags: ["Computer Vision", "Deep Learning", "Python"],
-    githubUrl: "https://github.com/hassankaafi72/pharmaguard-ai-",
+    githubUrl: "#",
   },
   {
     title: "LifeGuard AI",
@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     categories: ["AI/ML", "Web"],
     status: "Completed",
     tags: ["React", "FastAPI", "scikit-learn", "Firebase"],
-    githubUrl: "https://github.com/hassankaafi72/lifeguard-ai",
+    githubUrl: "#",
   },
   {
     title: "Syl Shopping Center",
@@ -72,6 +72,7 @@ export const PROJECTS: Project[] = [
     categories: ["Web"],
     status: "Completed",
     tags: ["Spring Boot", "Cloud Config", "RBAC"],
+    githubUrl: "#",
   },
   {
     title: "Predictive Real Estate Engine",
@@ -90,6 +91,7 @@ export const PROJECTS: Project[] = [
     categories: ["Data Science"],
     status: "Academic",
     tags: ["Python", "Pandas", "Matplotlib"],
+    githubUrl: "#",
   },
   {
     title: "AI Push-Up Challenge",
@@ -99,5 +101,6 @@ export const PROJECTS: Project[] = [
     categories: ["AI/ML", "Mobile"],
     status: "Concept",
     tags: ["Computer Vision", "Flutter", "In Development"],
+    githubUrl: "#",
   },
 ];

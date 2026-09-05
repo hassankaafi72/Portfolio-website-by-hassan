@@ -81,8 +81,7 @@ export function Projects() {
               {project.githubUrl ? (
                 <a
                   href={project.githubUrl}
-                  target="_blank"
-                  rel="noreferrer noopener"
+                  {...(project.githubUrl !== "#" ? { target: "_blank", rel: "noreferrer noopener" } : {})}
                   className="mt-6 inline-flex items-center gap-2 self-start text-sm font-medium text-muted transition-colors duration-200 hover:text-foreground cursor-pointer"
                 >
                   <GithubIcon className="h-4 w-4" />
