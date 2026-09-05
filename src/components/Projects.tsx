@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { SectionHeading } from "./SectionHeading";
 import { PROJECTS, PROJECT_FILTERS, type ProjectStatus } from "../data/projects";
+import { GithubIcon } from "./icons/BrandIcons";
 
 const STATUS_STYLES: Record<ProjectStatus, string> = {
   Completed: "text-success border-success/30 bg-success/10",
@@ -76,6 +77,18 @@ export function Projects() {
                   </span>
                 ))}
               </div>
+
+              {project.githubUrl ? (
+                <a
+                  href={project.githubUrl}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="mt-6 inline-flex items-center gap-2 self-start text-sm font-medium text-muted transition-colors duration-200 hover:text-foreground cursor-pointer"
+                >
+                  <GithubIcon className="h-4 w-4" />
+                  View Source
+                </a>
+              ) : null}
             </article>
           ))}
         </div>

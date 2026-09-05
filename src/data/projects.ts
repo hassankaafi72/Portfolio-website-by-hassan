@@ -8,6 +8,7 @@ export interface Project {
   categories: ProjectCategory[];
   status: ProjectStatus;
   tags: string[];
+  githubUrl?: string;
 }
 
 export const PROJECT_FILTERS: Array<"All" | ProjectCategory> = ["All", "AI/ML", "Web", "Data Science", "Mobile"];
@@ -21,6 +22,17 @@ export const PROJECTS: Project[] = [
     categories: ["AI/ML"],
     status: "Research",
     tags: ["Computer Vision", "Deep Learning", "Python"],
+    githubUrl: "https://github.com/hassankaafi72/pharmaguard-ai-",
+  },
+  {
+    title: "LifeGuard AI",
+    subtitle: "ML Life Expectancy Estimator",
+    description:
+      "Full-stack machine learning application that estimates life expectancy from demographic, economic, healthcare, and environmental indicators using a Random Forest regression pipeline. A statistical estimate only, not a medical or diagnostic tool.",
+    categories: ["AI/ML", "Web"],
+    status: "Completed",
+    tags: ["React", "FastAPI", "scikit-learn", "Firebase"],
+    githubUrl: "https://github.com/hassankaafi72/lifeguard-ai",
   },
   {
     title: "Syl Shopping Center",
@@ -29,7 +41,28 @@ export const PROJECTS: Project[] = [
       "Full-stack shopping application built with database architecture, schema design, data seeding, and application state management.",
     categories: ["Web"],
     status: "Completed",
-    tags: ["Full-Stack", "Database Design", "State Management"],
+    tags: ["Next.js", "Prisma", "PostgreSQL"],
+    githubUrl: "https://github.com/hassankaafi72/syl-shopping-center",
+  },
+  {
+    title: "Carshi Restaurant Website",
+    subtitle: "Restaurant Menu & Reservations Site",
+    description:
+      "Responsive restaurant website presenting a Somali food menu, with client-side cart management and a table reservation interface.",
+    categories: ["Web"],
+    status: "Completed",
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    githubUrl: "https://github.com/hassankaafi72/carshi-restaurant-webiste",
+  },
+  {
+    title: "TIENS Somalia Website",
+    subtitle: "Product Catalogue Website",
+    description:
+      "Single-page product catalogue for TIENS health and wellness products in Somalia, with categorized listings and full-screen product detail views.",
+    categories: ["Web"],
+    status: "Completed",
+    tags: ["React", "TypeScript", "Tailwind CSS"],
+    githubUrl: "https://github.com/hassankaafi72/-tiens-somalia-website",
   },
   {
     title: "Cloud-Integrated School Management System",
@@ -44,10 +77,11 @@ export const PROJECTS: Project[] = [
     title: "Predictive Real Estate Engine",
     subtitle: "Data Science & Regression Analysis",
     description:
-      "Python project comparing Linear Regression and Random Forest models for house-price prediction on structured housing data.",
+      "Python project using a linear regression model to estimate house prices from structured housing data, with an interactive Streamlit prediction interface.",
     categories: ["Data Science", "AI/ML"],
     status: "Academic",
-    tags: ["Python", "Regression", "Random Forest"],
+    tags: ["Python", "Regression", "Streamlit"],
+    githubUrl: "https://github.com/hassankaafi72/house-price-prediction",
   },
   {
     title: "Fitness Data Analysis",
