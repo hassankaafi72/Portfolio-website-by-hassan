@@ -32,7 +32,7 @@ export function Education() {
                 </p>
               </div>
             </div>
-            <p className="font-mono text-sm text-accent">2022 &ndash; Present</p>
+            <p className="font-mono text-sm text-accent">2022 &ndash; Aug 2026</p>
           </div>
 
           <div className="mt-8 border-t border-border pt-8">

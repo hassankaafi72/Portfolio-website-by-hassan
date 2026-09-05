@@ -42,15 +42,15 @@ export function Research() {
             </span>
             <div>
               <span className="inline-flex rounded-full border border-accent/30 bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
-                Thesis / Research Project
+                Thesis / Graduation Project
               </span>
               <h3 className="mt-3 text-xl font-semibold leading-snug text-foreground">
-                Machine Learning Model for Identifying High-Risk Pregnancies Using Basic Maternal Health Indicators
+                PharmaGuard AI &mdash; AI-Driven Packaging Authentication
               </h3>
               <p className="mt-4 max-w-3xl text-sm leading-relaxed text-muted">
-                An academic research project exploring whether machine learning models can flag high-risk pregnancy
-                indicators using basic, accessible maternal health data. This work is a research and academic
-                exercise; it has not been clinically deployed and makes no claims about real-world medical outcomes.
+                A computer vision and deep learning framework for pharmaceutical packaging authentication, developed
+                as a graduation research project. It explores detecting counterfeit packaging patterns; it has not
+                been deployed in the field and makes no claims about real-world detection outcomes.
               </p>
             </div>
           </div>

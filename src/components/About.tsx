@@ -48,7 +48,7 @@ export function About() {
               </div>
               <div>
                 <dt className="text-sm text-muted">Duration</dt>
-                <dd className="mt-1 text-base font-medium text-foreground">2022 &ndash; Present</dd>
+                <dd className="mt-1 text-base font-medium text-foreground">2022 &ndash; Aug 2026</dd>
               </div>
               <div>
                 <dt className="text-sm text-muted">Location</dt>

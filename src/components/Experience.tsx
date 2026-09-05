@@ -18,11 +18,10 @@ export function Experience() {
 
         <div className="relative border-l border-border pl-8">
           <span className="absolute -left-[7px] top-1.5 h-3.5 w-3.5 rounded-full border-2 border-accent bg-background" aria-hidden="true" />
-          <p className="font-mono text-sm text-accent">2022 &ndash; Present</p>
+          <p className="font-mono text-sm text-accent">2022 &ndash; Aug 2026</p>
           <h3 className="mt-2 text-xl font-semibold text-foreground">
             Computer Science / Information Technology
           </h3>
-          <p className="mt-1 text-sm text-muted">Jamhuriya University</p>
 
           <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted">
             Since starting my studies, I&apos;ve built hands-on experience across software development, machine
